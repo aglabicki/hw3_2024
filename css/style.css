@@ -185,8 +185,7 @@ first div in the grid  and place it in the grid. */
 
 .text-block{
   text-align: center;
-  justify-content: center;
-  align-items: center;
+  margin: auto;
 }
 /* Add your media query here */
 
