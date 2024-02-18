@@ -144,7 +144,6 @@ first div in the grid  and place it in the grid. */
   grid-column: 1/-1;
   background-image: url("../images/header.jpg");
   min-height: 500px;
-  background: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment:fixed;
@@ -216,8 +215,7 @@ first div in the grid  and place it in the grid. */
 
  /* Step 13:Write the selector/rule property to update the .text-block class */
   .text-block {
-    max-height: 250 px;
     overflow: hidden;
-
+    max-height: 250 px;
   }
 }
